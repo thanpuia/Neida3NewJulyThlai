@@ -152,14 +152,14 @@
     <string name="v8c1">  ● Viral natna an put darh ṭhin avangin Aphids awmna re re chu pawh phawi a halral ṭhin tur a ni</string>
     <string name="v8c2">  ● Imidachlorprid @1.5ml/L emaw Acetamiprid @ 1gm/L hi a ṭha hle bawk tur</string>
 
-    <string name="b1">A tam hri (Panama wilt)</string>
-    <string name="b2">Balhla ṭhan ṭhu (Bunchy top)</string>
-    <string name="b3">A hnah de eng (Sigatoka leaf spot)</string>
-    <string name="b4">A hnah leh Rah rau (Anthracnose)</string>
-    <string name="b5">BANANA THRIPS (A par leh a rah tirangtu)</string>
-    <string name="b6">BANANA APHID (A tui hnang dawttu hrik)</string>
-    <string name="b7">PSEUDOSTEM BORER (A bulbal / Kung khertu tuaingawt)</string>
-    <string name="b8">FRUIT AND LEAF SCARRING BEETLE (A hnah leh rah ti rangtu keltelaimawn)</string>
+    <string name="b1">A tam hri \n(Panama wilt)</string>
+    <string name="b2">Balhla ṭhan ṭhu \n(Bunchy top)</string>
+    <string name="b3">A hnah de eng \n(Sigatoka leaf spot)</string>
+    <string name="b4">A hnah leh Rah rau \n(Anthracnose)</string>
+    <string name="b5">BANANA THRIPS \n(A par leh a rah tirangtu)</string>
+    <string name="b6">BANANA APHID \n(A tui hnang dawttu hrik)</string>
+    <string name="b7">PSEUDOSTEM BORER \n(A bulbal / Kung khertu tuaingawt)</string>
+    <string name="b8">FRUIT AND LEAF SCARRING BEETLE \n(A hnah leh rah ti rangtu keltelaimawn)</string>
 
     <string name="b1a1">  ● A tirah a hnah chang lo eng in a ro a,a hnah te a tliak zui ta ṭhin a ni</string>
     <string name="b1a2">  ● A nasat chuan a hnah no leh chang tawh te an lo ro a, a uai hnup ṭhin a ni</string>

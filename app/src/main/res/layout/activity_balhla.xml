@@ -44,41 +44,87 @@
                         android:layout_width="match_parent"
                         />
 
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/natnaButtonSize"
-                        android:background="@drawable/balhla_natna1"
-                        android:layout_marginLeft="15dp"
-                        android:layout_marginRight="15dp"
-                        android:layout_marginTop="15dp"
-                        android:layout_marginBottom="5dp"
-                        android:onClick="A_tam_hri_Click"
-
-                        />
-                    <TextView
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/b1"
-                        android:layout_marginLeft="15dp"/>
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="140dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/balhla_natna1"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="5dp"
+                            android:onClick="A_tam_hri_Click"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:textStyle=""
+                            android:text="@string/b1"
+                            android:layout_marginLeft="10dp"/>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_weight="1"
+                                android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
 
                     <Space
                         android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/natnaButtonSize"
-                        android:background="@drawable/balhla_natna2"
-                        android:layout_marginLeft="15dp"
-                        android:layout_marginRight="15dp"
-                        android:layout_marginTop="15dp"
-                        android:layout_marginBottom="5dp"
-                        android:onClick="than_thu_Click"/>
-                    <TextView
+
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/b2"
-                        android:layout_marginLeft="15dp"/>
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:layout_width="140dp"
+                            android:layout_height="90dp"
+                            android:background="@drawable/balhla_natna2"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="5dp"
+                            android:onClick="than_thu_Click"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20dp"
+                            android:text="@string/b2"
+                            android:layout_marginLeft="15dp"/>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_weight="1"
+                                android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
 
                     <Space
                         android:layout_height="30dp"
