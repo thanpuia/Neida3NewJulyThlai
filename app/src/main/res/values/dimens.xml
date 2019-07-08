@@ -8,4 +8,6 @@
     <dimen name="zoomImageMargin">5dp</dimen>
     <dimen name="MainButtonHeight">110dp</dimen>
 
+    <dimen name="menu_name_width">130dp</dimen>
+
 </resources>
