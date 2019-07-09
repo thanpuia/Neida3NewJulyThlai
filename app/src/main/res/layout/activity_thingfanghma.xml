@@ -42,79 +42,200 @@
                 android:layout_width="match_parent"
                 />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:background="@drawable/papaya_idm1"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="5dp"
-                android:onClick="VutbuakClick"
-
-                />
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/t1"
-                android:layout_marginLeft="15dp"/>
+                android:orientation="horizontal">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="140dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/papaya_idm1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:onClick="VutbuakClick"
+                    android:scaleType="fitCenter"
+                    app:riv_corner_radius="@dimen/img_corner_radius"
+                    app:riv_border_width="@dimen/img_border_width"
+                    app:riv_border_color="@color/img_border_color"
+                    app:riv_mutate_background="true"
+                    app:riv_tile_mode="repeat"
+                    app:riv_oval="false" />/>
+
+                <TextView
+                    android:layout_width="@dimen/menu_name_width"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="@string/t1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="10dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+                </RelativeLayout>
+            </LinearLayout>
 
             <Space
                 android:layout_height="20dp"
                 android:layout_width="match_parent"
                 />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:background="@drawable/papaya_idm2"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="5dp"
-                android:onClick="a_hnah_kir_click"/>
-            <TextView
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/t2"
-                android:layout_marginLeft="15dp"/>
+                android:orientation="horizontal">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="140dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/papaya_idm2"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:onClick="a_hnah_kir_click"
+                    android:scaleType="fitCenter"
+                    app:riv_corner_radius="@dimen/img_corner_radius"
+                    app:riv_border_width="@dimen/img_border_width"
+                    app:riv_border_color="@color/img_border_color"
+                    app:riv_mutate_background="true"
+                    app:riv_tile_mode="repeat"
+                    app:riv_oval="false" />/>
+
+                <TextView
+                    android:layout_width="@dimen/menu_name_width"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="@string/t2"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="10dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
 
             <Space
                 android:layout_height="30dp"
                 android:layout_width="match_parent"
                 />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:background="@drawable/papaya_idm3"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="5dp"
-                android:onClick="a_hnah_rau_click"/>
-            <TextView
+
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/t3"
-                android:layout_marginLeft="15dp"/>
+                android:orientation="horizontal">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="140dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/papaya_idm3"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:onClick="a_hnah_rau_click"
+                    android:scaleType="fitCenter"
+                    app:riv_corner_radius="@dimen/img_corner_radius"
+                    app:riv_border_width="@dimen/img_border_width"
+                    app:riv_border_color="@color/img_border_color"
+                    app:riv_mutate_background="true"
+                    app:riv_tile_mode="repeat"
+                    app:riv_oval="false" />/>
+
+                <TextView
+                    android:layout_width="@dimen/menu_name_width"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="@string/t3"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="10dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+                </RelativeLayout>
+            </LinearLayout>
 
             <Space
                 android:layout_height="30dp"
                 android:layout_width="match_parent"
                 />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:background="@drawable/papaya_idm4"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="5dp"
-                android:onClick="rahNatnaClick"/>
-            <TextView
+
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/t4"
-                android:layout_marginLeft="15dp"/>
+                android:orientation="horizontal">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="140dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/papaya_idm4"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:onClick="rahNatnaClick"
+                    android:scaleType="fitCenter"
+                    app:riv_corner_radius="@dimen/img_corner_radius"
+                    app:riv_border_width="@dimen/img_border_width"
+                    app:riv_border_color="@color/img_border_color"
+                    app:riv_mutate_background="true"
+                    app:riv_tile_mode="repeat"
+                    app:riv_oval="false" />/>
+
+                <TextView
+                    android:layout_width="@dimen/menu_name_width"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="@string/t4"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="10dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+                </RelativeLayout>
+            </LinearLayout>
+
 
             <Space
                 android:layout_height="30dp"
@@ -150,79 +271,196 @@
                 android:layout_width="match_parent"
                 />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:background="@drawable/papaya_ipm1"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="5dp"
-                android:onClick="bawmtuVarClick"
-
-                />
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/t5"
-                android:layout_marginLeft="15dp"/>
+                android:orientation="horizontal">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="140dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/papaya_ipm1"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:onClick="bawmtuVarClick"
+                    android:scaleType="fitCenter"
+                    app:riv_corner_radius="@dimen/img_corner_radius"
+                    app:riv_border_width="@dimen/img_border_width"
+                    app:riv_border_color="@color/img_border_color"
+                    app:riv_mutate_background="true"
+                    app:riv_tile_mode="repeat"
+                    app:riv_oval="false" />/>
+
+                <TextView
+                    android:layout_width="@dimen/menu_name_width"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="@string/t5"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="10dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+                </RelativeLayout>
+            </LinearLayout>
 
             <Space
                 android:layout_height="20dp"
                 android:layout_width="match_parent"
                 />
-            <Button
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="230dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="140dp"
+                android:layout_height="90dp"
                 android:background="@drawable/papaya_ipm2"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="5dp"
-                android:onClick="thlawkVar_click"/>
+                android:onClick="thlawkVar_click"
+                android:scaleType="fitCenter"
+                app:riv_corner_radius="@dimen/img_corner_radius"
+                app:riv_border_width="@dimen/img_border_width"
+                app:riv_border_color="@color/img_border_color"
+                app:riv_mutate_background="true"
+                app:riv_tile_mode="repeat"
+                app:riv_oval="false" />
+
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="@dimen/menu_name_width"
                 android:layout_height="wrap_content"
+                android:textSize="15dp"
                 android:text="@string/t6"
+                android:layout_gravity="center"
                 android:layout_marginLeft="15dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="10dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
 
             <Space
                 android:layout_height="30dp"
                 android:layout_width="match_parent"
                 />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:background="@drawable/papaya_ipm3"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="5dp"
-                android:onClick="khau_Click"/>
-            <TextView
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/t7"
-                android:layout_marginLeft="15dp"/>
+                android:orientation="horizontal">
+            <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:background="@drawable/papaya_ipm3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="khau_Click"
+        android:scaleType="fitCenter"
+        app:riv_corner_radius="@dimen/img_corner_radius"
+        app:riv_border_width="@dimen/img_border_width"
+        app:riv_border_color="@color/img_border_color"
+        app:riv_mutate_background="true"
+        app:riv_tile_mode="repeat"
+        app:riv_oval="false" />
+
+    <TextView
+        android:layout_width="@dimen/menu_name_width"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="@string/t7"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+    </RelativeLayout>
+</LinearLayout>
+
+
 
             <Space
                 android:layout_height="30dp"
                 android:layout_width="match_parent"
                 />
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:background="@drawable/papaya_ipm4"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="5dp"
-                android:onClick="hnahTuiHnagDawtuClick"/>
-            <TextView
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/t8"
-                android:layout_marginLeft="15dp"/>
+                android:orientation="horizontal">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="140dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/papaya_ipm4"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:onClick="hnahTuiHnagDawtuClick"
+                    android:scaleType="fitCenter"
+                    app:riv_corner_radius="@dimen/img_corner_radius"
+                    app:riv_border_width="@dimen/img_border_width"
+                    app:riv_border_color="@color/img_border_color"
+                    app:riv_mutate_background="true"
+                    app:riv_tile_mode="repeat"
+                    app:riv_oval="false" />
+
+                <TextView
+                    android:layout_width="@dimen/menu_name_width"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="@string/t8"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="10dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+                </RelativeLayout>
+            </LinearLayout>
 
             <Space
                 android:layout_height="30dp"
