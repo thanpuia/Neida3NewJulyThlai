@@ -46,7 +46,8 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="wrap_content"                            android:onClick="A_tam_hri_Click"
+
                         android:orientation="horizontal">
 
                         <com.makeramen.roundedimageview.RoundedImageView
@@ -57,13 +58,11 @@
                             android:layout_marginRight="15dp"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:onClick="A_tam_hri_Click"
                             android:scaleType="fitCenter"
                             app:riv_corner_radius="@dimen/img_corner_radius"
                             app:riv_border_width="@dimen/img_border_width"
                             app:riv_border_color="@color/img_border_color"
                             app:riv_mutate_background="true"
-                            app:riv_tile_mode="repeat"
                             app:riv_oval="false"
                             />
                         <TextView
@@ -100,7 +99,8 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="wrap_content"                            android:onClick="than_thu_Click"
+
                         android:orientation="horizontal">
 
                         <com.makeramen.roundedimageview.RoundedImageView
@@ -111,13 +111,11 @@
                             android:layout_marginRight="15dp"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:onClick="than_thu_Click"
                             android:scaleType="fitCenter"
                             app:riv_corner_radius="@dimen/img_corner_radius"
                             app:riv_border_width="@dimen/img_border_width"
                             app:riv_border_color="@color/img_border_color"
                             app:riv_mutate_background="true"
-                            app:riv_tile_mode="repeat"
                             app:riv_oval="false" />
                         <TextView
                             android:layout_width="@dimen/menu_name_width"
@@ -151,7 +149,8 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="wrap_content"                            android:onClick="a_hnah_de_eng_click"
+
                         android:orientation="horizontal">
 
                         <com.makeramen.roundedimageview.RoundedImageView
@@ -162,13 +161,11 @@
                             android:layout_marginRight="15dp"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:onClick="a_hnah_de_eng_click"
                             android:scaleType="fitCenter"
                             app:riv_corner_radius="@dimen/img_corner_radius"
                             app:riv_border_width="@dimen/img_border_width"
                             app:riv_border_color="@color/img_border_color"
                             app:riv_mutate_background="true"
-                            app:riv_tile_mode="repeat"
                             app:riv_oval="false" />
                         <TextView
                             android:layout_width="@dimen/menu_name_width"
@@ -201,7 +198,8 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="wrap_content"                            android:onClick="hnah_leh_rah_rau_Click"
+
                         android:orientation="horizontal">
 
                         <com.makeramen.roundedimageview.RoundedImageView
@@ -212,13 +210,11 @@
                             android:layout_marginRight="15dp"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:onClick="hnah_leh_rah_rau_Click"
                             android:scaleType="fitCenter"
                             app:riv_corner_radius="@dimen/img_corner_radius"
                             app:riv_border_width="@dimen/img_border_width"
                             app:riv_border_color="@color/img_border_color"
                             app:riv_mutate_background="true"
-                            app:riv_tile_mode="repeat"
                             app:riv_oval="false" />
                         <TextView
                             android:layout_width="@dimen/menu_name_width"
@@ -281,7 +277,8 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="wrap_content"                            android:onClick="banana_thrips_Click"
+
                         android:orientation="horizontal">
 
                         <com.makeramen.roundedimageview.RoundedImageView
@@ -292,13 +289,11 @@
                             android:layout_marginRight="15dp"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:onClick="banana_thrips_Click"
                             android:scaleType="fitCenter"
                             app:riv_corner_radius="@dimen/img_corner_radius"
                             app:riv_border_width="@dimen/img_border_width"
                             app:riv_border_color="@color/img_border_color"
                             app:riv_mutate_background="true"
-                            app:riv_tile_mode="repeat"
                             app:riv_oval="false" />
                         <TextView
                             android:layout_width="130dp"
@@ -331,7 +326,8 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="wrap_content"                            android:onClick="banana_aphid_click"
+
                         android:orientation="horizontal">
 
                         <com.makeramen.roundedimageview.RoundedImageView
@@ -342,13 +338,11 @@
                             android:layout_marginRight="15dp"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:onClick="banana_aphid_click"
                             android:scaleType="fitCenter"
                             app:riv_corner_radius="@dimen/img_corner_radius"
                             app:riv_border_width="@dimen/img_border_width"
                             app:riv_border_color="@color/img_border_color"
                             app:riv_mutate_background="true"
-                            app:riv_tile_mode="repeat"
                             app:riv_oval="false" />
                         <TextView
                             android:layout_width="@dimen/menu_name_width"
@@ -381,7 +375,8 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="wrap_content"                            android:onClick="pseudostem_Click"
+
                         android:orientation="horizontal">
 
                         <com.makeramen.roundedimageview.RoundedImageView
@@ -392,13 +387,11 @@
                             android:layout_marginRight="15dp"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:onClick="pseudostem_Click"
                             android:scaleType="fitCenter"
                             app:riv_corner_radius="@dimen/img_corner_radius"
                             app:riv_border_width="@dimen/img_border_width"
                             app:riv_border_color="@color/img_border_color"
                             app:riv_mutate_background="true"
-                            app:riv_tile_mode="repeat"
                             app:riv_oval="false" />
                         <TextView
                             android:layout_width="@dimen/menu_name_width"
@@ -431,7 +424,8 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="wrap_content"                            android:onClick="fruit_Leaf_beetle_Click"
+
                         android:orientation="horizontal">
 
                         <com.makeramen.roundedimageview.RoundedImageView
@@ -442,13 +436,11 @@
                             android:layout_marginRight="15dp"
                             android:layout_marginTop="15dp"
                             android:layout_marginBottom="5dp"
-                            android:onClick="fruit_Leaf_beetle_Click"
                             android:scaleType="fitCenter"
                             app:riv_corner_radius="@dimen/img_corner_radius"
                             app:riv_border_width="@dimen/img_border_width"
                             app:riv_border_color="@color/img_border_color"
                             app:riv_mutate_background="true"
-                            app:riv_tile_mode="repeat"
                             app:riv_oval="false" />
                         <TextView
                             android:layout_width="@dimen/menu_name_width"
