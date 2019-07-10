@@ -8,4 +8,6 @@
     <color name="background2">#fff9f4</color>
 
     <color name="img_border_color">#ECECEC</color>
+
+    <color name="horizontal_line">#335A5A5A</color>
 </resources>

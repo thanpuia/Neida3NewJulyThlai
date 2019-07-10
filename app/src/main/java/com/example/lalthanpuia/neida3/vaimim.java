@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.thlaienkawltu.lalthanpuia.neida3.Main69Activity_vaimim_fall_army;
+
 import static com.example.lalthanpuia.neida3.MainActivity.sound;
 
 public class vaimim extends AppCompatActivity {
@@ -86,5 +88,9 @@ public class vaimim extends AppCompatActivity {
             MainActivity.mediaPlayer.start();
         Intent intent = new Intent(this,vaimimChindan.class);
         startActivity(intent);
+    }
+
+    public void fallArmyWormClick(View view) {
+        startActivity(new Intent(this, Main69Activity_vaimim_fall_army.class));
     }
 }

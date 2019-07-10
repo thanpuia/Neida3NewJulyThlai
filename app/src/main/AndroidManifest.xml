@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name="com.thlaienkawltu.lalthanpuia.neida3.Main69Activity_vaimim_fall_army"
+            android:label="@string/title_activity_main69_vaimim_fall_army"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".SplashScreen"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -295,7 +299,7 @@
         <activity android:name=".img_vaimim_chindan4" />
         <activity android:name=".img_vaimim_chindan5" />
         <activity android:name=".img_vaimim_chindan6" />
-        <activity android:name=".img_vaimim_chindan7"></activity>
+        <activity android:name=".img_vaimim_chindan7" />
     </application>
 
 </manifest>

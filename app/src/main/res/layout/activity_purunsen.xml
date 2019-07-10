@@ -89,7 +89,12 @@
                         android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="hnah_tawih_Click"
@@ -135,10 +140,15 @@
                     </LinearLayout>
 
                     <Space
-                        android:layout_height="30dp"
+                        android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="hnah_rau_val_click"
@@ -184,10 +194,15 @@
                     </LinearLayout>
 
                     <Space
-                        android:layout_height="30dp"
+                        android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="hnah_rau_Click"
@@ -233,10 +248,15 @@
                     </LinearLayout>
 
                     <Space
-                        android:layout_height="30dp"
+                        android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="hnah_uai_Click"
@@ -361,7 +381,12 @@
                         android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="purun_hnah_hreuh_click"
@@ -408,10 +433,15 @@
 
 
                     <Space
-                        android:layout_height="30dp"
+                        android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="purun_lung_Click"
@@ -456,10 +486,15 @@
                     </LinearLayout>
 
                     <Space
-                        android:layout_height="30dp"
+                        android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="tiak_sehchhutuPangaga_Click"

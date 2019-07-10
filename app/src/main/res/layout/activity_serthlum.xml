@@ -92,6 +92,12 @@
                         android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -139,9 +145,15 @@
 
 
                     <Space
-                        android:layout_height="30dp"
+                        android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -188,10 +200,15 @@
                     </LinearLayout>
 
                     <Space
-                        android:layout_height="30dp"
+                        android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="vutbuakOrange_Click"
@@ -236,6 +253,17 @@
 
                     </LinearLayout>
 
+
+                    <Space
+                        android:layout_height="20dp"
+                        android:layout_width="match_parent"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="rah_tawih_Click"
@@ -314,7 +342,12 @@
                         android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="katnelh_Click"
@@ -363,7 +396,12 @@
                         android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="hnahHruairangtu_click"
@@ -408,10 +446,15 @@
                     </LinearLayout>
 
                     <Space
-                        android:layout_height="30dp"
+                        android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="kungKertuClick"
@@ -456,10 +499,15 @@
                     </LinearLayout>
 
                     <Space
-                        android:layout_height="30dp"
+                        android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="rah_dawttuClick"
@@ -504,11 +552,16 @@
                     </LinearLayout>
 
                     <Space
-                        android:layout_height="30dp"
+                        android:layout_height="20dp"
                         android:layout_width="match_parent"
                         />
 
-
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/horizontal_line_height"
+                        android:layout_marginLeft="@dimen/horizontal_line_margin"
+                        android:layout_marginRight="@dimen/horizontal_line_margin"
+                        android:background="@color/horizontal_line"/>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"                            android:onClick="rahdawttu_e_Click"

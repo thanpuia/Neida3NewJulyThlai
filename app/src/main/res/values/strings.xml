@@ -15,9 +15,9 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_thingfanghma_vutbuak">thingfanghma_vutbuak</string>
     <string name="title_activity_main2">Main2Activity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="tab_text_3">Tab 3</string>
+    <string name="tab_text_1">RANNUNG</string>
+    <string name="tab_text_2">A TIHCHHIAT DAN</string>
+    <string name="tab_text_3">ENKAWL DAN</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_a_han_kir">A_han_kir</string>
     <string name="title_activity_a_hnah_kir">A_hnah_kir</string>
@@ -523,5 +523,6 @@
     </string>
 
     <string name="enkawldan">ENKAWLDAN</string>
+    <string name="title_activity_main69_vaimim_fall_army">Main69Activity_vaimim_fall_army</string>
 
 </resources>
